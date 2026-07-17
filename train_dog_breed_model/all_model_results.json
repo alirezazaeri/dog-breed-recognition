@@ -1,0 +1,30 @@
+[
+    {
+        "Model": "Random Forest",
+        "F1 Score": 0.7394375493179685,
+        "Training Time (s)": 111.96021509170532,
+        "Inference Time (s/img)": 5.5090239120299315e-05,
+        "Model Size (MB)": 365.62
+    },
+    {
+        "Model": "EfficientNetB0",
+        "F1 Score": 0.8056866737965926,
+        "Training Time (s)": 1074.35,
+        "Inference Time (s/img)": 0.0076,
+        "Model Size (MB)": 25.83
+    },
+    {
+        "Model": "MobileNetV2",
+        "F1 Score": 0.7798,
+        "Training Time (s)": 774.04,
+        "Inference Time (s/img)": 0.0048,
+        "Model Size (MB)": 10.93
+    },
+    {
+        "Model": "NASNetMobile (Fine-Tuned)",
+        "F1 Score": 0.8234,
+        "Training Time (s)": 2062.24,
+        "Inference Time (s/img)": 0.008,
+        "Model Size (MB)": 20.35
+    }
+]
