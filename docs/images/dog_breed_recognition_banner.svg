@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Dog Breed Recognition</title>
+  <desc id="desc">Model comparison for 120-class classification and TensorFlow Lite deployment</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" fill="url(#background)"/>
+  <circle cx="1450" cy="35" r="260" fill="#1E3A8A" opacity="0.32"/>
+  <circle cx="1290" cy="510" r="230" fill="#0F766E" opacity="0.18"/>
+  <g opacity="0.16" stroke="#93C5FD" stroke-width="1">
+    <path d="M920 70H1530M920 140H1530M920 210H1530M920 280H1530M920 350H1530M920 420H1530"/>
+    <path d="M990 30V470M1070 30V470M1150 30V470M1230 30V470M1310 30V470M1390 30V470M1470 30V470"/>
+  </g>
+  <rect x="92" y="90" width="8" height="250" rx="4" fill="url(#accent)"/>
+  <text x="135" y="205" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700">Dog Breed Recognition</text>
+  <text x="138" y="265" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="27">Model Comparison for 120-Class Classification</text>
+  <text x="138" y="307" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="27">and TensorFlow Lite Deployment</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle">
+    <rect x="990" y="118" width="150" height="64" rx="12" fill="#1E293B" stroke="#60A5FA" stroke-width="2"/>
+    <text x="1065" y="157" fill="#E2E8F0">120 Classes</text>
+    <rect x="1200" y="118" width="180" height="64" rx="12" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+    <text x="1290" y="157" fill="#E2E8F0">Model Comparison</text>
+    <rect x="1095" y="275" width="180" height="64" rx="12" fill="#1E293B" stroke="#2DD4BF" stroke-width="2"/>
+    <text x="1185" y="314" fill="#E2E8F0">MobileNetV2</text>
+    <rect x="1335" y="275" width="150" height="64" rx="12" fill="#1E293B" stroke="#5EEAD4" stroke-width="2"/>
+    <text x="1410" y="314" fill="#E2E8F0">TensorFlow Lite</text>
+    <path d="M1065 183V230H1185V274M1290 183V230H1185" fill="none" stroke="#64748B" stroke-width="3"/>
+    <path d="M1275 307H1334" fill="none" stroke="#2DD4BF" stroke-width="3"/>
+    <path d="M1320 298L1335 307L1320 316" fill="none" stroke="#2DD4BF" stroke-width="3"/>
+  </g>
+</svg>
